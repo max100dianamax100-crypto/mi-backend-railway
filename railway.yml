@@ -1,0 +1,7 @@
+name: Login_Vue_Version
+type: java
+build:
+commands:  
+- ./mvnw clean install 
+outputDirectory: target 
+start: java -jar target/your-spring-boot-app.jar
